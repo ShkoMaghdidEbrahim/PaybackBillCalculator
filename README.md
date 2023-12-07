@@ -1,38 +1,28 @@
-# Java Utility Program
+# Payback Calculation Program
 
 ## Overview
-This Java application provides multiple utility functions, including payback calculation, prime number generation, and checking if a number is odd or even. The program demonstrates fundamental concepts of Java programming such as loops, conditional statements, and basic arithmetic operations.
+This Java application is designed to calculate the payback amount in different bill denominations. Given a payment amount and a price, it efficiently computes the change to be returned and breaks it down into various denominations such as $100, $50, $20, $10, $5, and $1 bills.
 
-## Features
-- **Payback Calculation**: Given a payment amount and a price, calculates the change to be returned in various bill denominations.
-- **Prime Number Generation**: Generates and prints prime numbers from 2 to 100.
-- **Odd/Even Check**: Determines whether a given number is odd or even using the modulus operator.
+## Feature
+- **Payback Calculation**: The program takes two inputs: the payment amount and the price of an item. It then calculates the change required and determines the number of bills needed for each denomination to make up the total change amount.
 
 ## Running the Program
-To run this Java utility program, follow these steps:
+To run the Payback Calculation Program, follow these steps:
 
 1. **Compile the Java Program**:
-   - Ensure Java is installed on your system.
+   - Ensure you have Java installed on your system.
    - Navigate to the directory containing `Main.java`.
-   - Compile the program using `javac Main.java`.
+   - Use the command `javac Main.java` to compile the program.
 
 2. **Execute the Program**:
-   - Run the compiled program with `java Main`.
-   - Observe the output in the console, which will include payback calculations, a list of prime numbers, and an odd/even check (if `modulus` method is called in `main`).
+   - Once compiled, run the program using `java Main`.
+   - The output will display the change to be returned in different bill denominations.
 
-## Program Structure
-- The `Main` class contains the `main` method where the utility methods are called.
-- The `payback` method calculates the change to be given back for a transaction.
-- The prime number generator is part of the `main` method but can be refactored into a separate method for modularity.
-- The `modulus` method checks if a number is odd or even.
-
-## Note
-- The payback calculation assumes the availability of $100, $50, $20, $10, $5, and $1 bills.
-- The prime number generator has a hardcoded limit of 100 but can be modified to accept dynamic ranges.
-- The modulus method currently checks the parity of a hardcoded number; it can be modified to accept dynamic input.
+## Example
+- If the payment is $100 and the price is $73, the program will output the change in the highest possible denominations. For instance, it may output "1 $20 Bill(s), 1 $5 Bill(s), 2 $1 Bill(s)" indicating the way to return $27 as change.
 
 ## Contribution
-Contributions to enhance and improve this utility program are welcome. Whether it's optimizing the existing features, extending functionality, or fixing bugs, feel free to fork this repository and submit your improvements.
+Contributions to enhance and improve the Payback Calculation Program are encouraged. This can include adding support for additional currencies, optimizing the algorithm, or extending the program to include coin denominations.
 
 ## License
-Free To Use.
+This project is licensed under [specify the license type here].
