@@ -1,36 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        //        for (int i = 1; i < 11; i++) {
-        //            if (i % 2 == 0)
-        //            System.out.print(i + " ");
-        //        }
-        //
-        //        System.out.println();
-        //
-        //        int i = 1;
-        //        while (i < 11) {
-        //            if (i % 2 == 0)
-        //            System.out.print(i + " ");
-        //            i++;
-        //        }
-        //
-        //        for (int k = 1; k < 11; k++) {
-        //            if (i / 2 * 2 == 0)
-        //                System.out.print(i + " ");
-        //        }
-        
-        //        for (int i = 1; i < 11; i++) {
-        //            System.out.print(i + " Is ");
-        //            modulus(i);
-        //        }
-        
-        //        for (int i = 1; i < 11; i++) {
-        //            for (int j = 1; j < 11; j++) {
-        //                System.out.print(i * j + "\t");
-        //            }
-        //            System.out.println();
-        //        }
-        //        System.out.println();
+     
         
         int payment = 100;
         int price = 73;
