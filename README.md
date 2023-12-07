@@ -25,4 +25,4 @@ To run the Payback Calculation Program, follow these steps:
 Contributions to enhance and improve the Payback Calculation Program are encouraged. This can include adding support for additional currencies, optimizing the algorithm, or extending the program to include coin denominations.
 
 ## License
-This project is licensed under [specify the license type here].
+Free To use.
